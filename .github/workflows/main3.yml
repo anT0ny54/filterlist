@@ -2,6 +2,7 @@ name: Update Blacklist
 on:
   push:
     paths-ignore:
+    - '.github/**'
     - 'lists/**'
     - '*.txt'
     - '*.yaml'
